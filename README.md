@@ -4,7 +4,7 @@ An intelligent, autonomous browser agent that translates natural language comman
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=for-the-badge&logo=puppeteer&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-API-black?style=for-the-badge)
 
 *(Insert a GIF or video link here demonstrating the bot running a search on YouTube)*
@@ -13,7 +13,7 @@ An intelligent, autonomous browser agent that translates natural language comman
 
 *   **Autonomous Navigation:** Supply a high-level goal (e.g., "Search for a tech video on YouTube and play it"), and the agent takes over.
 *   **Accessibility Object Model (AOM) Extraction:** Parses the browser's DOM into an optimized Accessibility Tree. Empty and structural nodes are aggressively pruned to reduce the LLM context payload by up to 90%, maximizing inference speed and reliability.
-*   **ReAct Agent Architecture:** Utilizes the Reason + Act methodology to iteratively observe the webpage, reason about the goal, and invoke specific browser tools (click, type, navigate).
+*   **ReAct Agent Architecture:** Utilizes the Reason + Act methodology to iteratively observe the webpage, reason about the goal, and invoke specific browser tools (click, type, navigate) using Playwright.
 *   **Dynamic LLM Routing:** Built-in multi-model routing (`LLMRouter`) with failovers. Supports local models (Ollama), direct API integrations (Gemini), and aggregate providers (OpenRouter).
 
 ## 🏗️ Architecture
